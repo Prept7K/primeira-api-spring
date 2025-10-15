@@ -2,10 +2,19 @@ package com.felipeemanuel.mineiracaodados.controller.dto;
 
 public class TurmaDto {
 
+    private Integer id;
+
     private String curso;
 
     private String nome;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getCurso() {
         return curso;
